@@ -78,3 +78,5 @@ O dono do repositório precisa, uma vez:
 O repositório precisa ser público, ou a conta precisa de GitHub Pages em repositório privado.
 
 Agenda, prontuário, serviços, estoque e financeiro funcionam no Pages porque os dados ficam no navegador. O assistente de IA **não** funciona no Pages: ele precisa do processo Node (`npm start` ou um host com as funções em `netlify/functions`). Sem `GEMINI_API_KEY`, esse servidor também não gera texto.
+
+A origem do Pages está em GitHub Actions. Cada push em `main` publica de novo.
